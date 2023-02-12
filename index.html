@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Biscoito da Sorte</title>
+</head>
+<body>
+    <section class="biscoitoFechado">
+        <h1>
+            Qual é a sua sorte de hoje?
+        </h1>
+        <span>
+            Abra o biscoito e descubra!
+        </span>
+        <div>
+            <img class="biscoitoFechadoPicture" src="./assets/biscoitointeiro.svg" alt="Imagem de um biscoito da sorte inteiro.">
+        </div>
+    </section>  
+
+    <section class="biscoitoAberto hide">
+        <h1>
+            Aqui está a sua sorte de hoje:
+        </h1>
+        <span id="randomFhrase">
+            Consagre ao Senhor tudo o que você faz e seus planos serão bem sucedidos.
+        </span>
+        <div>
+            <img id="biscoitoClosed" src="./assets/biscoitoaberto.svg" alt="Imagem de um biscoito da sorte inteiro.">
+        </div>
+        <button id="abrirOutro">
+            <p>Abrir outro biscoito</p> 
+        </button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

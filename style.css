@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62,5%;
+    background: linear-gradient(45deg, #190361 0%, #bb00ff 100%);
+    height: 100vh;
+}
+
+.biscoitoFechado {
+    height: 22.4rem;
+    width: 24.8rem;
+    margin: auto;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0rem 2rem 5rem rgba(0, 0, 0, 0.8);
+}
+
+.biscoitoFechado h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.biscoitoFechado span {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 3rem;
+}
+
+.biscoitoAberto {
+    height: 25.4rem;
+    width: 24.8rem;
+    margin: auto;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0rem 2rem 5rem rgba(0, 0, 0, 0.8);
+}
+
+.biscoitoAberto span {
+    line-height: 1.5rem;
+    text-align: center;
+    border: 0.1rem solid #E4EDF1;
+    background-color: #E4EDF1;
+    font-family: 'Dancing Script', cursive;
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+    width: 15rem;
+    margin-top: 1rem;
+
+    animation: moveToUp 1s ease-in-out;
+}
+
+@keyframes moveToUp {
+    100% {
+      transform: translateYT(0px);
+      width: 15rem;
+    }
+    0% {
+      transform: translateY(120px);
+      width: 1rem;
+      font-size: 0.1rem;
+    }
+  }
+
+.biscoitoAberto span:hover {
+    font-size: 1.5rem;
+    width: 20rem;
+    line-height: 2rem;
+}
+
+.biscoitoAberto h1 {
+    line-height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+#abrirOutro {
+    border: none;
+    background: #FF9500;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 1rem;
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+}
+
+#abrirOutro:hover {
+    background: #7a4903;
+}
+
+.biscoitoFechadoPicture:hover {
+    cursor: pointer;
+    animation: treme 0.1s;
+    animation-iteration-count: 100;
+}
+
+@keyframes treme {
+    0% {margin-left: 0;}
+    25% {margin-left: 5px;}
+    50% {margin-left: 0;}
+    75% {margin-left: -5px;}
+    100% {margin-left: 0;}
+}
