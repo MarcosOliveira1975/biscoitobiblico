@@ -12,3 +12,5 @@ TECNOLOGIAS UTILIZADAS
 - DOM
 - Git e Github
 - Figma
+
+[Acesse o projeto Habits finalizado clicando aqui!](https://marcosoliveira1975.github.io/biscoitobiblico/)
