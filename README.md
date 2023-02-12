@@ -6,9 +6,9 @@ Introduzindo conceito de DOM, callback function, eventos.
 
 TECNOLOGIAS UTILIZADAS
 
-HTML
-CSS
-JavaScript
-DOM
-Git e Github
-Figma
+- HTML
+- CSS
+- JavaScript
+- DOM
+- Git e Github
+- Figma
