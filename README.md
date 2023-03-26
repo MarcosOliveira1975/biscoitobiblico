@@ -13,4 +13,4 @@ TECNOLOGIAS UTILIZADAS
 - Git e Github
 - Figma
 
-[Acesse o projeto Habits finalizado clicando aqui!](https://marcosoliveira1975.github.io/biscoitobiblico/)
+[Acesse o projeto finalizado clicando aqui!](https://marcosoliveira1975.github.io/biscoitobiblico/)
