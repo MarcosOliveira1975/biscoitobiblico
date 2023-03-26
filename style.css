@@ -11,6 +11,7 @@ body {
     display: grid;
     place-content: center;
     text-align: center;
+
 }
 
 .biscoitoFechado {
@@ -89,7 +90,7 @@ body {
 }
 
 .biscoitoAberto h1 {
-    line-height: 3rem;
+    line-height: 2rem;
     font-family: 'Montserrat', sans-serif;
 }
 
